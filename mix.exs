@@ -30,7 +30,7 @@ defmodule HelloWorld.MixProject do
   defp deps do
     [
       {:excoveralls, "~> 0.10", only: :test},
-      {:dialyxir, "~> 0.4", only: [:dev]},
+      {:dialyxir, "~> 0.4", only: [:dev, :test]},
       {:ex_doc, "~> 0.19", only: [:dev, :test], runtime: false}
     ]
   end
